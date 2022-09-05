@@ -15,7 +15,7 @@ namespace CardTask.Application.Helpers
         public string SmtpHost { get; set; } = "smtp.gmail.com";
         public int SmtpPort { get; set; } = 587;
         public string SmtpUser { get; set; } = "hasan215hh@gmail.com";
-        public string SmtpPass { get; set; } = "dopjjpnepdzdzipq";
+        public string SmtpPass { get; set; } = "dopjjpnepdzdzipq";//only for this app
     }
 
 }
