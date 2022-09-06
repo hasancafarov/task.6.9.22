@@ -19,7 +19,7 @@ namespace CardTask.Application.MapppingProfiles
             
             CreateMap<User, UserResponse>();
             CreateMap<Account, AccountResponse>();
-
+            CreateMap<Card, CardResponse>();
             CreateMap<RegisterRequest, User>().ReverseMap();
 
             // UpdateRequest -> User
