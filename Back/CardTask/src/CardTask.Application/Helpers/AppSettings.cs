@@ -11,11 +11,11 @@ namespace CardTask.Application.Helpers
         public string Secret { get; set; }
         public int RefreshTokenTTL { get; set; }
 
-        public string EmailFrom { get; set; } = "hasan215hh@gmail.com";
+        public string EmailFrom { get; set; } = "xxx@gmail.com";
         public string SmtpHost { get; set; } = "smtp.gmail.com";
         public int SmtpPort { get; set; } = 587;
-        public string SmtpUser { get; set; } = "hasan215hh@gmail.com";
-        public string SmtpPass { get; set; } = "dopjjpnepdzdzipq";//only for this app
+        public string SmtpUser { get; set; } = "xxx@gmail.com";
+        public string SmtpPass { get; set; } = "";//only for this app
     }
 
 }
